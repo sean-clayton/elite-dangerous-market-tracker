@@ -49,8 +49,7 @@ global min/max.
 
 1. Run `git clone git@git.seanclayton.me:sean/elite-dangerous-market-tracker.git wherever/you/want` (Replace "wherever/you/want" with your preferred destination")
 1. `cd` into the directory specified in the previous step
-1. Run `meteor` to build the app
-1. There is no step 3. You're done.
+1. Run `meteor` to build and execute the app (defaults to port 3000)
 
 ### Supported Environments
 
