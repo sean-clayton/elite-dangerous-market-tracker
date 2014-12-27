@@ -1,0 +1,18 @@
+// Import Normalization
+@import "normalize";
+
+// Import Dependencies
+@import "../../.meteor/local/build/programs/server/assets/packages/bstocks_bourbon/bourbon";
+@import "../../.meteor/local/build/programs/server/assets/packages/bstocks_neat/neat";
+
+// Import settings
+@import "settings";
+
+// Import view-specific styles
+@import "views";
+
+$transition: $ease-in-out-quad;
+
+#app {
+  @include transition(all 1s $transition);
+}

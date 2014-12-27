@@ -1,0 +1,24 @@
+$display-font: "Orbitron";
+$main-font: "Fira Sans";
+$special-font: "";
+
+$display-font-family: $display-font, "Roboto Condensed", "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$main-font-family: $main-font, "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$special-font-family: "";
+
+$display-font-weight: 400;
+$main-font-weight: 400;
+$special-font-weight: 400;
+
+$em-base: 14px;
+
+html, body {
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $display-font-family;
+  font-weight: $display-font-weight;
+}

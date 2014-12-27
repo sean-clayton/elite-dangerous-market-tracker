@@ -25,9 +25,41 @@ and/or commodity). A user will then either specify a system/station/commodity or
 be defaulted to a global view, displaying information such as global average vs
 global min/max.
 
+### Anticipated Features
+
+- Add information to database
+- View information from database
+  - In graph form
+- Account creation
+- Personalized Dashboards
+  - Customized views
+  - Personal graphs with real-time information
+
 - - -
 
 ## Development Info
+
+### Prerequisites
+
+- Node.js
+- NPM
+- Meteor
+
+### Installation
+
+1. Run `git clone git@git.seanclayton.me:sean/elite-dangerous-market-tracker.git wherever/you/want` (Replace "wherever/you/want" with your preferred destination")
+2. Run `meteor` to build the app
+3. There is no step 3. You're done.
+
+### Meteor Packages Used
+
+- coffeescript
+- [iron:router](https://atmospherejs.com/iron/router)
+- [pfafman:nvd3](https://atmospherejs.com/pfafman/nvd3)
+- [stevezhu:normalize.scss](https://atmospherejs.com/stevezhu/normalize.scss)
+- [fourseven:scss](https://atmospherejs.com/fourseven/scss)
+- [bstocks:bourbon](https://atmospherejs.com/bstocks/bourbon)
+- [bstocks:neat](https://atmospherejs.com/bstocks/neat)
 
 - - -
 
