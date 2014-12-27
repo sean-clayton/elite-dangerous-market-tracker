@@ -72,6 +72,10 @@ global min/max.
 
 ## Other Info
 
+### Copyright Notice
+
+Elite © 1984 David Braben & Ian Bell. Frontier © 1993 David Braben, Frontier: First Encounters © 1995 David Braben and Elite: Dangerous © 1984 - 2014 Frontier Developments plc. All rights reserved. 'Elite', the Elite logo, the Elite: Dangerous logo, 'Frontier' and the Frontier logo are registered trademarks of Frontier Developments plc. All rights reserved. All other trademarks and copyright are acknowledged as the property of their respective owners.
+
 ### [LICENSE](LICENSE.md)
 
 The MIT License (MIT)
