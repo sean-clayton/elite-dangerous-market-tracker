@@ -2,3 +2,24 @@ $dark-gray: #101010;
 $orange: #ff8c0d;
 $blue: #55c5ca;
 $red: #c92202;
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  background: url('/images/background.jpg') center center no-repeat;
+  background-size: cover;
+  color: $orange;
+  text-shadow: 0 1px 0 rgba(black, 1);
+}
+
+body {
+  $scanLineWidth: 1.5px;
+  background: -webkit-repeating-linear-gradient(
+      top,
+      rgba(black, .5),
+      rgba(black, .5) $scanLineWidth,
+      rgba(black, 1) $scanLineWidth,
+      rgba(black, 1) $scanLineWidth*2
+  );
+  -webkit-background-size: 100% $scanLineWidth*2;
+}

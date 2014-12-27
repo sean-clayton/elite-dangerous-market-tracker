@@ -8,11 +8,11 @@
 // Import settings
 @import "settings";
 
+// Import layout styles
+@import "layouts";
+
+// Import partial styles
+@import "partials";
+
 // Import view-specific styles
 @import "views";
-
-$transition: $ease-in-out-quad;
-
-#app {
-  @include transition(all 1s $transition);
-}

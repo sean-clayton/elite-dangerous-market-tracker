@@ -41,15 +41,23 @@ global min/max.
 
 ### Prerequisites
 
-- Node.js
-- NPM
-- Meteor
+- Node.js v0.10.33
+- NPM v1.4.28
+- Meteor v1.0.2.1
 
 ### Installation
 
 1. Run `git clone git@git.seanclayton.me:sean/elite-dangerous-market-tracker.git wherever/you/want` (Replace "wherever/you/want" with your preferred destination")
-2. Run `meteor` to build the app
-3. There is no step 3. You're done.
+1. `cd` into the directory specified in the previous step
+1. Run `meteor` to build the app
+1. There is no step 3. You're done.
+
+### Supported Environments
+
+- OS X 10.10 Yosemite
+- Arch Linux
+
+***Note:*** This *should* build properly on any system that Meteor officially supports, but I don't have enough time to test for all of those environments. Soz.
 
 ### Meteor Packages Used
 
