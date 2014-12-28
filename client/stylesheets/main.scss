@@ -1,9 +1,7 @@
-// Import Normalization
-@import "normalize";
-
 // Import Dependencies
-@import "../../.meteor/local/build/programs/server/assets/packages/bstocks_bourbon/bourbon";
-@import "../../.meteor/local/build/programs/server/assets/packages/bstocks_neat/neat";
+@import "../../.meteor/local/build/programs/server/assets/packages/bstocks_bourbon/bourbon"; // http://bourbon.io/docs
+@import "../../.meteor/local/build/programs/server/assets/packages/bstocks_neat/neat"; // http://neat.bourbon.io/docs
+@import "../../.meteor/local/build/programs/server/assets/packages/matthew_foundation5-sass/foundation"; // http://foundation.zurb.com/docs
 
 // Import settings
 @import "settings";
