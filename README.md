@@ -74,7 +74,7 @@ Soz.
 
 - - -
 
-## How to Contribute
+## Contributing
 
 ### Pull Requests
 
@@ -105,7 +105,7 @@ A few examples of what to submit:
 - Bugs
 - Discussion
 
-### Financially
+### Donate
 
 Not a developer? I don't discriminate--I'd be more than willing to
 take your money. But please note before throwing your wallet at me:
@@ -129,6 +129,9 @@ account? Sharing this project around helps it grow!
 [![Tweet](https://img.shields.io/badge/Share-Tweet-00ACEE.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Elite: Dangerous Market Tracker - http://elitemarkettracker.com)
   
 [![Reddit](https://img.shields.io/badge/Share-Reddit-FF4500.svg?style=flat-square)](http://www.reddit.com/submit?url=http://elitemarkettracker.com&title=Elite: Dangerous Market Tracker)
+
+- - -
+
 ## Legal Info
 
 ### Copyright Notice
