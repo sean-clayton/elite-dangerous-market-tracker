@@ -74,7 +74,62 @@ Soz.
 
 - - -
 
-## Other Info
+## How to Contribute
+
+### Pull Requests
+
+Donating code is probably the best form of payment I could receive.
+I'd be more than happy to run all of my open-source projects from my own home
+during my free time, but sadly, there's not a lot of that free time left :(
+
+If you wish to do a pull request with some bug fixes or whatever, please make
+sure that the following is met:
+
+1. Code style is the same
+    - Spaces not tabs
+    - 2 spaces per tab
+1. Code is DRY
+
+Other than that, I don't think I'm very stingy when it comes to injecting
+yourself into the project. Thanks for lending a hand :)
+
+### Submitting Issues
+
+I use the [Github Repo issue tracker](https://github.com/sean-clayton/elite-dangerous-market-tracker/issues)
+for managing the issues of this project. Please submit any you have with as much
+detail as possible--they really do help out a lot.
+A few examples of what to submit:
+
+- Critical Issues
+- Feature Requests
+- Bugs
+- Discussion
+
+### Financially
+
+Not a developer? I don't discriminate--I'd be more than willing to
+take your money. But please note before throwing your wallet at me:
+
+***This project does not run on money.***
+*If you choose to donate money, it will be used for things like coffee,
+bourbon, beer, or something, unless I receive enough to pay my current salary.*
+
+That said, here are the current ways to support my projects:
+
+[![Gratipay](https://img.shields.io/badge/Giv_Sandwich-Gratipay-6F4113.svg?style=flat-square)](#)
+[![PayPal](https://img.shields.io/badge/Giv_Beer-PayPal-009CDE.svg?style=flat-square)](#)
+[![Coinbase](https://img.shields.io/badge/Giv_Coffee-Coinbase-3380D0.svg?style=flat-square)](#)
+[![Flattr](https://img.shields.io/badge/Giv_<3-Flattr-6CBC16.svg?style=flat-square)](#)
+
+### Sharing is Caring
+
+Programming skills not up to snuff? Wallet low on cash? Have a Reddit or Twitter
+account? Sharing this project around helps it grow!
+
+[![Tweet](https://img.shields.io/badge/Share-Tweet-00ACEE.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Elite: Dangerous Market Tracker - http://elitemarkettracker.com)
+  
+[![Reddit](https://img.shields.io/badge/Share-Reddit-FF4500.svg?style=flat-square)](http://www.reddit.com/submit?url=http://elitemarkettracker.com&title=Elite: Dangerous Market Tracker)
+## Legal Info
 
 ### Copyright Notice
 
@@ -88,7 +143,7 @@ All rights reserved.
 All other trademarks and copyright are acknowledged
 as the property of their respective owners.
 
-### [LICENSE](LICENSE.md)
+### [LICENSE](LICENSE)
 
 The MIT License (MIT)
 
