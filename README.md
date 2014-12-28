@@ -1,13 +1,11 @@
 # Elite: Dangerous Market Tracker
-## By Sean Clayton (CMDR SKULBUNY)
+By Sean Clayton (CMDR SKULBUNY)
 
 - - -
 
 ## Build Status
 
 ![Build Status](https://img.shields.io/badge/Status-In%20Development-red.svg?style=flat-square)
-
-- - -
 
 ## Application Info
 
@@ -40,8 +38,6 @@ global min/max.
 - Personalized Dashboards
   - Customized views
   - Personal graphs with real-time information
-
-- - -
 
 ## Development Info
 
@@ -77,8 +73,6 @@ Soz.
 - [fourseven:scss](https://atmospherejs.com/fourseven/scss)
 - [bstocks:bourbon](https://atmospherejs.com/bstocks/bourbon)
 - [bstocks:neat](https://atmospherejs.com/bstocks/neat)
-
-- - -
 
 ## Contributing
 
