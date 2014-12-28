@@ -116,10 +116,12 @@ bourbon, beer, or something, unless I receive enough to pay my current salary.*
 
 That said, here are the current ways to support my projects:
 
-[![Gratipay](https://img.shields.io/badge/Giv_Sandwich-Gratipay-6F4113.svg?style=flat-square)](#)
-[![PayPal](https://img.shields.io/badge/Giv_Beer-PayPal-009CDE.svg?style=flat-square)](#)
-[![Coinbase](https://img.shields.io/badge/Giv_Coffee-Coinbase-3380D0.svg?style=flat-square)](#)
-[![Flattr](https://img.shields.io/badge/Giv_<3-Flattr-6CBC16.svg?style=flat-square)](#)
+[![Gratipay](https://img.shields.io/badge/Giv_Sandwich-Gratipay-6F4113.svg?style=flat-square)](https://gratipay.com/seanclayton/)
+[![PayPal](https://img.shields.io/badge/Giv_Beer-PayPal-009CDE.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=N8X27LUMHQACS&lc=US&item_name=Elite%3a%20Dangerous%20Market%20Tracker&item_number=edmt&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+[![Bitcoin](https://img.shields.io/badge/Giv_Coffee-Bitcoin-3380D0.svg?style=flat-square)](bitcoin:1DTLiKwyQxzT5kK73zrbRudmhQ7AvFamZ)
+[![Flattr](https://img.shields.io/badge/Giv_<3-Flattr-6CBC16.svg?style=flat-square)](https://flattr.com/submit/auto?user_id=seanclayton&url=http%3A%2F%2Felitemarkettracker.com)
+
+
 
 ### Sharing is Caring
 
