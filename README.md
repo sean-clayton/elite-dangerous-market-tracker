@@ -65,15 +65,29 @@ wherever/you/want`
 supports, but I don't have enough time to test for all of those environments.
 Soz.
 
-### Meteor Packages Used
+### 3rd-Party Meteor Packages Used
 
-- coffeescript
 - [iron:router](https://atmospherejs.com/iron/router)
+| Adds routing
+- [momentjs:moment](https://atmospherejs.com/momentjs/moment)
+| Parses date objects really well. Obviously a huge
+time-saver for this project
+- [meteorhacks:fast-render](https://atmospherejs.com/meteorhacks/fast-render)
+| Renders page before DDP happens. Makes it render initially from
+static html, then uses reactive stuff
+- [matthew:foundation5-sass](https://atmospherejs.com/matthew/foundation5-sass)
+| A design-agnostic CSS framework. Not using the Foundation grid.
+Pales in comparison to Neat
 - [pfafman:nvd3](https://atmospherejs.com/pfafman/nvd3)
-- [stevezhu:normalize.scss](https://atmospherejs.com/stevezhu/normalize.scss)
+| Graph library. Prone to change.
 - [fourseven:scss](https://atmospherejs.com/fourseven/scss)
+| Adds scss capabilities
 - [bstocks:bourbon](https://atmospherejs.com/bstocks/bourbon)
+| Huge library of awesome scss mixins/functions/helpers.
+Best thing for scss. Better than compass
 - [bstocks:neat](https://atmospherejs.com/bstocks/neat)
+| Easily the best grid framework out there.
+Only caveat is it relies on scss, but I see that as a plus.
 
 ## Contributing
 
@@ -124,15 +138,17 @@ That said, here are the current ways to support my projects:
 [![Bitcoin](https://img.shields.io/badge/Giv_Coffee-Bitcoin-3380D0.svg?style=flat-square)](https://www.changetip.com/tipme/seanclayton)
 [![Flattr](https://img.shields.io/badge/Giv_<3-Flattr-6CBC16.svg?style=flat-square)](https://flattr.com/submit/auto?user_id=seanclayton&url=http%3A%2F%2Felitemarkettracker.com)
 
-
-
 ### Sharing is Caring
 
 Programming skills not up to snuff? Wallet low on cash? Have a Reddit or Twitter
 account? Sharing this project around helps it grow!
 
-[![Tweet](https://img.shields.io/badge/Share-Tweet-00ACEE.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Elite: Dangerous Market Tracker - http://elitemarkettracker.com)  
+[![Tweet](https://img.shields.io/badge/Share-Tweet-00ACEE.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Elite: Dangerous Market Tracker - http://elitemarkettracker.com)
 [![Reddit](https://img.shields.io/badge/Share-Reddit-FF4500.svg?style=flat-square)](http://www.reddit.com/submit?url=http://elitemarkettracker.com&title=Elite: Dangerous Market Tracker)
+
+### Submitting Market Information
+
+Use the tool! This is probably the easiest and least expensive (ie. Free) option to contribute to this project. It's pretty useless if no one uses it!
 
 - - -
 
