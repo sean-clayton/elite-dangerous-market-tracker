@@ -131,9 +131,8 @@ That said, here are the current ways to support my projects:
 Programming skills not up to snuff? Wallet low on cash? Have a Reddit or Twitter
 account? Sharing this project around helps it grow!
 
-[![Tweet](https://img.shields.io/badge/Share-Tweet-00ACEE.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Elite%3A%20Dangerous%20Market%20Tracker%20-%20http%3A%2F%2Felitemarkettracker.com)
-  
-[![Reddit](https://img.shields.io/badge/Share-Reddit-FF4500.svg?style=flat-square)](http://www.reddit.com/submit?url=http%3A%2F%2Felitemarkettracker.com&title=Elite%3A%20Dangerous%20Market%20Tracker)
+[Share on Twitter](https://twitter.com/intent/tweet?text=Elite%3A%20Dangerous%20Market%20Tracker%20-%20http%3A%2F%2Felitemarkettracker.com)  
+[Share on Reddit](http://www.reddit.com/submit?url=http%3A%2F%2Felitemarkettracker.com&title=Elite%3A%20Dangerous%20Market%20Tracker)
 
 - - -
 
