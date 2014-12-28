@@ -3,6 +3,12 @@
 
 - - -
 
+## Build Status
+
+![Build Status](https://img.shields.io/badge/Status-In%20Development-red.svg?style=flat-square)
+
+- - -
+
 ## Application Info
 
 ### What it is
