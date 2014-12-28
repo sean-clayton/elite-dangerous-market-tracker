@@ -1,5 +1,5 @@
 # Elite: Dangerous Market Tracker
-## By Sean Clayton (CMDR skulbuny)
+## By Sean Clayton (CMDR SKULBUNY)
 
 - - -
 
@@ -47,7 +47,9 @@ global min/max.
 
 ### Installation
 
-1. Run `git clone git@git.seanclayton.me:sean/elite-dangerous-market-tracker.git wherever/you/want` (Replace "wherever/you/want" with your preferred destination")
+1. Run `git clone git@git.seanclayton.me:sean/elite-dangerous-market-tracker.git
+wherever/you/want`
+(Replace "wherever/you/want" with your preferred destination")
 1. `cd` into the directory specified in the previous step
 1. Run `meteor` to build and execute the app (defaults to port 3000)
 
@@ -56,7 +58,9 @@ global min/max.
 - OS X 10.10 Yosemite
 - Arch Linux
 
-***Note:*** This *should* build properly on any system that Meteor officially supports, but I don't have enough time to test for all of those environments. Soz.
+***Note:*** This *should* build properly on any system that Meteor officially
+supports, but I don't have enough time to test for all of those environments.
+Soz.
 
 ### Meteor Packages Used
 
@@ -74,7 +78,15 @@ global min/max.
 
 ### Copyright Notice
 
-Elite © 1984 David Braben & Ian Bell. Frontier © 1993 David Braben, Frontier: First Encounters © 1995 David Braben and Elite: Dangerous © 1984 - 2014 Frontier Developments plc. All rights reserved. 'Elite', the Elite logo, the Elite: Dangerous logo, 'Frontier' and the Frontier logo are registered trademarks of Frontier Developments plc. All rights reserved. All other trademarks and copyright are acknowledged as the property of their respective owners.
+Elite © 1984 David Braben & Ian Bell. Frontier © 1993 David Braben,
+Frontier: First Encounters © 1995 David Braben and
+Elite: Dangerous © 1984 - 2014 Frontier Developments plc.
+All rights reserved.
+'Elite', the Elite logo, the Elite: Dangerous logo, 'Frontier' and the
+Frontier logo are registered trademarks of Frontier Developments plc.
+All rights reserved.
+All other trademarks and copyright are acknowledged
+as the property of their respective owners.
 
 ### [LICENSE](LICENSE.md)
 
