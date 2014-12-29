@@ -13,6 +13,7 @@ $special-font-weight: 400;
 $em-base: 14px;
 
 html, body {
+  font-size: $em-base;
   font-family: $main-font-family;
 }
 

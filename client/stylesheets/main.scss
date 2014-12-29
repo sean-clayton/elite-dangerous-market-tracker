@@ -1,7 +1,9 @@
+// Normalize.scss
+@import "normalize"; /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
 // Import Dependencies
 @import "../../.meteor/local/build/programs/server/assets/packages/bstocks_bourbon/bourbon"; // http://bourbon.io/docs
 @import "../../.meteor/local/build/programs/server/assets/packages/bstocks_neat/neat"; // http://neat.bourbon.io/docs
-@import "../../.meteor/local/build/programs/server/assets/packages/matthew_foundation5-sass/foundation"; // http://foundation.zurb.com/docs
 
 // Import settings
 @import "settings";
@@ -14,3 +16,14 @@
 
 // Import view-specific styles
 @import "views";
+
+#app {
+  @include outer-container;
+  @include display(flex);
+  @include flex-direction(column);
+  min-height: 100vh;
+}
+
+.container {
+  padding: 0 1rem;
+}

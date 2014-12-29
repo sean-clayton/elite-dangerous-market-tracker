@@ -1,15 +1,27 @@
 $dark-gray: #101010;
-$orange: #ff8c0d;
-$blue: #55c5ca;
-$red: #c92202;
+$elite-orange: #ff8c0d;
+$elite-blue: #55c5ca;
+$elite-red: #c92202;
+$vivid-blue: #09f;
+
+$primary-color: $elite-orange;
+$secondary-color: white;
+$primary-accent-color: $elite-blue;
+$secondary-accent-color: $vivid-blue;
+$alert-color: $elite-red;
+$success-color: #43ac6a;
+$warning-color: $elite-orange;
+$info-color: $elite-blue;
 
 html, body {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
-  background: url('/images/background.jpg') center center no-repeat;
+}
+
+html {
+  background: url('/images/background.jpg') center center no-repeat fixed;
   background-size: cover;
-  color: $orange;
-  text-shadow: 0 1px 0 rgba(black, 1);
+  color: white;
 }
 
 body {
@@ -22,4 +34,50 @@ body {
       rgba(black, 1) $scanLineWidth*2
   );
   -webkit-background-size: 100% $scanLineWidth*2;
+}
+
+#app {
+  background: rgba(black, .5);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $primary-color;
+}
+
+a {
+  color: $primary-accent-color;
+}
+
+button, .button {
+  background: transparent;
+  border-width: 2px;
+
+  .secondary {
+    background: transparent;
+  }
+}
+
+thead {
+  background: white;
+  color: black;
+  border: 2px solid white;
+}
+
+tr {
+  border-bottom: 2px solid white;
+}
+
+td {
+  border: 2px solid white;
+  text-shadow: 0 1px 0 rgba(black, 1);
+
+  &:hover {
+    background: white;
+    color: black;
+    text-shadow: none;
+  }
+}
+
+a {
+  color: $vivid-blue;
 }
