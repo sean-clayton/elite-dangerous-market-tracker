@@ -1,4 +1,6 @@
 Router.configure
   layoutTemplate: 'defaultLayout'
 
-Router.route '/', name: 'homepage'
+Router.route '/',
+  name: 'homepage'
+  fastRender: true
