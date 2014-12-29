@@ -4,3 +4,7 @@ Router.configure
 Router.route '/',
   name: 'homepage'
   fastRender: true
+
+Router.route '/license',
+  name: 'license'
+  fastRender: true
