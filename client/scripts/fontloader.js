@@ -1,5 +1,5 @@
 WebFontConfig = {
-  google: { families: [ 'Orbitron:400,700:latin','Fira+Sans:300,400,700,300italic,400italic,700italic:latin' ] }
+  google: { families: [ 'Orbitron:400,700:latin','Monda:400,700:latin' ] }
 };
 (function() {
   var wf = document.createElement('script');

@@ -1,5 +1,5 @@
 $display-font: "Orbitron";
-$main-font: "Fira Sans";
+$main-font: "Monda";
 $special-font: "";
 
 $display-font-family: $display-font, "Roboto Condensed", "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -15,6 +15,7 @@ $em-base: 14px;
 html, body {
   font-size: $em-base;
   font-family: $main-font-family;
+  word-wrap: break-word;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -22,4 +23,8 @@ h1,h2,h3,h4,h5,h6 {
   box-sizing: border-box;
   font-family: $display-font-family;
   font-weight: $display-font-weight;
+}
+
+a {
+  text-decoration: none;
 }
