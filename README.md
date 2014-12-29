@@ -5,7 +5,10 @@ By Sean Clayton (CMDR SKULBUNY)
 
 ## Build Status
 
-![Build Status](https://img.shields.io/badge/Status-In%20Development-red.svg?style=flat-square)
+![Build Status](https://img.shields.io/badge/Status-In%20Development-red.svg?style=flat-square)  
+[![Build Status](https://semaphoreapp.com/api/v1/projects/164f3cf6-9265-4518-b9ee-03b3e15129da/317426/shields_badge.svg)](https://semaphoreapp.com/seanclayton/elite-dangerous-market-tracker)  
+[![Code Climate](https://codeclimate.com/github/sean-clayton/elite-dangerous-market-tracker/badges/gpa.svg)](https://codeclimate.com/github/sean-clayton/elite-dangerous-market-tracker)  
+[![Test Coverage](https://codeclimate.com/github/sean-clayton/elite-dangerous-market-tracker/badges/coverage.svg)](https://codeclimate.com/github/sean-clayton/elite-dangerous-market-tracker)
 
 ## Application Info
 
