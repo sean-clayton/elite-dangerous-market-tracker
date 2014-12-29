@@ -1,5 +1,5 @@
 $default-transition: $ease-in-out-quad;
 
 * {
-  @include transition(all 160ms $default-transition);
+  @include transition(all 120ms $default-transition);
 }
