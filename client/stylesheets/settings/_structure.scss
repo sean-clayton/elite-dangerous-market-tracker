@@ -1,5 +1,15 @@
 $border-box-sizing: true !default;
-$max-width: 100vw;
+$max-width: 75vw;
+$hidden-overflow: true;
+$visual-grid: true !default;
+
+html {
+  @if ($hidden-overflow) {
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+}
 
 table {
   @include fill-parent;
