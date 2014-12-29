@@ -42,10 +42,24 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   color: $primary-color;
+  text-shadow: 0 1px 0 rgba(black, 1);
 }
 
-a {
-  color: $primary-accent-color;
+hr {
+  border: 0;
+  height: 1px;
+  width: 50vw;
+  margin: 2rem auto;
+  background: $primary-color;
+  @include linear-gradient(left, rgba($primary-color, 0), rgba($primary-color, 1), rgba($primary-color, 0));
+}
+
+p {
+  text-shadow: 0 1px 0 rgba(black, 1);
+
+  a {
+    color: $primary-accent-color;
+  }
 }
 
 button, .button {
@@ -74,10 +88,6 @@ td {
   &:hover {
     background: white;
     color: black;
-    text-shadow: none;
+    text-shadow: 0 1px 0 rgba(white, 1);
   }
-}
-
-a {
-  color: $vivid-blue;
 }
