@@ -2,21 +2,44 @@ $dark-gray: #101010;
 $elite-orange: #ff8c0d;
 $elite-blue: #55c5ca;
 $elite-red: #c92202;
+$elite-orange-red: #f14c02;
 $vivid-blue: #09f;
 
 $primary-color: $elite-orange;
 $secondary-color: white;
-$primary-accent-color: $elite-blue;
-$secondary-accent-color: $vivid-blue;
+$accent-color-1: $elite-blue;
+$accent-color-2: $vivid-blue;
+$accent-color-3: $elite-orange-red;
+$accent-color-4: $elite-red;
 $alert-color: $elite-red;
 $success-color: #43ac6a;
 $warning-color: $elite-orange;
 $info-color: $elite-blue;
 
-html, body {
-  min-height: 100vh;
-  width: 100vw;
-}
+$default-header-bg: rgba($primary-color, .5);
+$default-header-heading-color: white;
+
+$table-even-row-bg: rgba(white, .25);
+$table-odd-row-bg: rgba(black, .25);
+$table-even-row-text-color: white;
+$table-odd-row-text-color: white;
+
+$default-content-bg-gradient-start: rgba($accent-color-3, .5);
+$default-content-bg-gradient-end: rgba($accent-color-3, 0);
+
+$default-navbar-bg: rgba($primary-color, .75);
+
+$default-navbar-link-color: white;
+$default-navbar-link-background: transparent;
+$default-navbar-link-shadow: 0 1px 0 rgba(black, .25);
+
+$default-navbar-link-color-hovered: black;
+$default-navbar-link-background-hovered: white;
+$default-navbar-link-shadow-hovered: none;
+
+$default-navbar-link-color-active: black;
+$default-navbar-link-background-active: white;
+$default-navbar-link-shadow-active: none;
 
 html {
   background: url('/images/background.jpg') center center no-repeat fixed;
@@ -32,12 +55,12 @@ body {
       rgba(black, .5) $scanLineWidth,
       rgba(black, 1) $scanLineWidth,
       rgba(black, 1) $scanLineWidth*2
-  );
+  ) fixed;
   -webkit-background-size: 100% $scanLineWidth*2;
 }
 
 #app {
-  background: rgba(black, .5);
+  background-color: rgba(black, .5);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -54,7 +77,7 @@ p {
   text-shadow: 0 1px 0 rgba(black, 1);
 
   a {
-    color: $primary-accent-color;
+    color: $accent-color-1;
   }
 }
 
@@ -73,6 +96,19 @@ thead {
   border: 2px solid white;
 }
 
+tbody {
+  tr {
+    &:nth-child(even) {
+      color: $table-even-row-text-color;
+      background: $table-even-row-bg;
+    }
+    &:nth-child(odd) {
+      color: $table-odd-row-text-color;
+      background: $table-odd-row-bg;
+    }
+  }
+}
+
 tr {
   border-bottom: 2px solid white;
 }
@@ -84,6 +120,6 @@ td {
   &:hover {
     background: white;
     color: black;
-    text-shadow: 0 1px 0 rgba(white, 1);
+    text-shadow: none;
   }
 }

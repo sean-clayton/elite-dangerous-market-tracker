@@ -1,6 +1,6 @@
 $border-box-sizing: true !default;
 $max-width: 75vw;
-$hidden-overflow: true;
+$hidden-overflow: false;
 $visual-grid: true !default;
 
 html {
@@ -9,6 +9,11 @@ html {
       width: 0;
     }
   }
+}
+
+html, body {
+  min-height: 100vh;
+  width: 100%;
 }
 
 table {

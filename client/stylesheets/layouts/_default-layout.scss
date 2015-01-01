@@ -1,4 +1,5 @@
 .default-content {
   @include flex(1);
+  @include radial-gradient(circle at top, $default-content-bg-gradient-start 0%, $default-content-bg-gradient-end 100%);
   padding: 1rem 0;
 }

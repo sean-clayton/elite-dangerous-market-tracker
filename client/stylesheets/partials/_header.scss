@@ -1,17 +1,16 @@
 .default-header {
   font-size: 1.5em;
   padding: 2rem 0;
-  background: rgba(mix(gray, $secondary-accent-color, 80%), .3);
+  background: $default-header-bg;
 
-  h1 {
-    $heading-color: $primary-color;
-    color: $heading-color;
+  h1, a {
+    color: $default-header-heading-color;
     text-shadow: 0 0 6px rgba(black, .5), 0 0 24px rgba(black, .25);
     text-decoration: none;
     text-align: center;
 
     &>:visited {
-      color: $heading-color;
+      color: $default-header-heading-color;
     }
   }
 }
