@@ -1,0 +1,23 @@
+.default-navbar {
+  background: $default-navbar-bg;
+}
+
+.default-navitems {
+  @include span-columns(12);
+  @include display(flex);
+  @include flex-wrap(center);
+  @include align-items(center);
+  @include justify-content(flex-start);
+
+  a {
+    @include pad(1rem);
+    color: $default-navbar-link-color;
+    text-shadow: $default-navbar-link-shadow;
+
+    &:hover {
+      color: $default-navbar-link-color-hovered;
+      background: $default-navbar-link-background-hovered;
+      text-shadow: $default-navbar-link-shadow-hovered;
+    }
+  }
+}
