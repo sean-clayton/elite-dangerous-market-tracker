@@ -12,10 +12,17 @@ $special-font-weight: 400;
 
 $em-base: 14px;
 
+$font-smoothing: true;
+$font-smoothing-type: antialiased;
+
 html, body {
   font-size: $em-base;
   font-family: $main-font-family;
   word-wrap: break-word;
+
+  @if ($font-smoothing) {
+    -webkit-font-smoothing: $font-smoothing-type;
+  }
 }
 
 h1,h2,h3,h4,h5,h6 {
