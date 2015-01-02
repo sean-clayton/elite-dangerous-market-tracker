@@ -48,14 +48,11 @@ html {
 }
 
 body {
-  $scanLineWidth: 1.5px;
-  background: -webkit-repeating-linear-gradient(
-      top,
-      rgba(black, .5),
-      rgba(black, .5) $scanLineWidth,
-      rgba(black, 1) $scanLineWidth,
-      rgba(black, 1) $scanLineWidth*2
-  ) fixed;
+  $scanLineWidth: 1px;
+  background: -webkit-repeating-linear-gradient(top, rgba(black, .75), rgba(black, .75) $scanLineWidth, rgba(black, 1) $scanLineWidth, rgba(black, 1) 3px) fixed;
+  background: -moz-repeating-linear-gradient(top, rgba(black, .75), rgba(black, .75) $scanLineWidth, rgba(black, 1) $scanLineWidth, rgba(black, 1) 3px) fixed;
+  background: -ms-repeating-linear-gradient(top, rgba(black, .75), rgba(black, .75) $scanLineWidth, rgba(black, 1) $scanLineWidth, rgba(black, 1) 3px) fixed;
+  background: repeating-linear-gradient(top, rgba(black, .75), rgba(black, .75) $scanLineWidth, rgba(black, 1) $scanLineWidth, rgba(black, 1) 3px) fixed;
   -webkit-background-size: 100% $scanLineWidth*2;
 }
 
