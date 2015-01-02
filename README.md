@@ -88,6 +88,8 @@ Best thing for scss. Better than compass
 - [bstocks:neat](https://atmospherejs.com/bstocks/neat)
 | Easily the best grid framework out there.
 Only caveat is it relies on scss, but I see that as a plus.
+- [perak:fuzzy-search](https://atmospherejs.com/perak/fuzzy-search)
+| Fuzzy search framework
 
 ## Contributing
 
