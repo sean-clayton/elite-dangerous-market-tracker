@@ -1,0 +1,31 @@
+.switch {
+
+  display: block;
+
+  input {
+    margin: 0 0 1rem 0;
+  }
+
+  input:not(:checked),
+  input:checked {
+    @include appearance(none);
+    width: 4.25rem;
+    height: 2rem;
+    border: 2px solid $elite-red;
+    background: linear-gradient($elite-red,$elite-red) no-repeat center left, transparent;
+    background-size: 2rem 2rem, auto;
+    transition: .4s background-position;
+  }
+
+  input:active,
+  input:focus {
+    outline: none;
+  }
+  
+  input:checked {
+    border-color: $foam;
+    background-image: linear-gradient($foam,$foam);
+    background-position: right;
+  }
+
+}

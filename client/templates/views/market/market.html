@@ -3,11 +3,16 @@
     <div class="container">
       <form class="market-form">
         
-        <label for="systemName">System</label>
-        <input name="systemName" type="text"/>
+        <label class="form-label" for="systemName">System</label>
+        <input class="text-input" name="systemName" type="text"/>
 
-        <label for="stationName">Station Name</label>
-        <input name="stationName" type="text"/>
+        <label class="form-label" for="stationName">Station Name</label>
+        <input class="text-input" name="stationName" type="text"/>
+
+        <span class="switch" for="hasBlackMarket">
+          <label>Black Market?</label>
+          <input name="hasBlackMarket" type="checkbox"/>
+        </span>
 
         <button type="submit">Enter</button>
       </form>
