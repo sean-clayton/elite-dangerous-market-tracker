@@ -90,6 +90,8 @@ Best thing for scss. Better than compass
 Only caveat is it relies on scss, but I see that as a plus.
 - [perak:fuzzy-search](https://atmospherejs.com/perak/fuzzy-search)
 | Fuzzy search framework
+- [infinitedg:gsap](https://atmospherejs.com/infinitedg/gsap)
+| Wrapper for the GreenSock animation library. It's pretty freaking cool.
 
 ## Contributing
 
@@ -150,8 +152,8 @@ That said, here are the current ways to support my projects:
 Programming skills not up to snuff? Wallet low on cash? Have a Reddit or Twitter
 account? Sharing this project around helps it grow!
 
-[![Tweet](https://img.shields.io/badge/Share-Tweet-00ACEE.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Elite%3A%20Dangerous%20Market%20Tracker%20-%20http%3A%2F%2Felitemarkettracker.com)
-[![Reddit](https://img.shields.io/badge/Share-Reddit-FF4500.svg?style=flat-square)](http://www.reddit.com/submit?url=http%3A%2F%2Felitemarkettracker.com&title=Elite%3A%20Dangerous%20Market%20Tracker)
+[![Tweet](https://img.shields.io/badge/Share-Tweet-00ACEE.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Elite%3A%20Dangerous%20Market%20Tracker%20-%20https%3A%2F%2Felitemarkettracker.com)
+[![Reddit](https://img.shields.io/badge/Share-Reddit-FF4500.svg?style=flat-square)](http://www.reddit.com/submit?url=https%3A%2F%2Felitemarkettracker.com&title=Elite%3A%20Dangerous%20Market%20Tracker)
 
 - - -
 
