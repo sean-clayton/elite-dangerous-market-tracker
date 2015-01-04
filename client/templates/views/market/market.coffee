@@ -2,8 +2,12 @@ Template.market.events 'submit form': (e) ->
 
   e.preventDefault()
 
-  systemName = $(e.target).find('[name="systemName"]').val()
-  stationName = $(e.target).find('[name="stationName"]').val()
-  hasBlackMarket = $(e.target).find('[name="hasBlackMarket"]').is(':checked')
+  systemNameInput = $(e.target).find('[name="systemName"]')
+  stationNameInput = $(e.target).find('[name="stationName"]')
+  hasBlackMarketInput = $(e.target).find('[name="hasBlackMarket"]')
+
+  systemName = systemNameInput.val()
+  stationName = stationNameInput.val()
+  hasBlackMarket = hasBlackMarketInput.is(':checked')
 
   console.log systemName + ' | ' + stationName + ' | ' + hasBlackMarket
