@@ -10,6 +10,10 @@ By Sean Clayton (CMDR SKULBUNY)
 [![Code Climate](https://img.shields.io/codeclimate/github/sean-clayton/elite-dangerous-market-tracker.svg?style=flat-square)](https://codeclimate.com/github/sean-clayton/elite-dangerous-market-tracker)  
 [![Test Coverage](https://img.shields.io/codeclimate/coverage/github/sean-clayton/elite-dangerous-market-tracker.svg?style=flat-square)](https://codeclimate.com/github/sean-clayton/elite-dangerous-market-tracker)
 
+## Known Issues
+
+- It's not working
+
 ## Application Info
 
 ### What it is
