@@ -1,5 +1,7 @@
 .default-content {
   @include flex(1);
-  @include radial-gradient(ellipse at 50% 10%, $default-content-bg-gradient-start 0%, $default-content-bg-gradient-end 100%);
+  @include radial-gradient(ellipse at 33.333% 0%, $default-content-bg-gradient-start 0%, $default-content-bg-gradient-end 60%);
+  background-size: 150% 100%;
+  background-repeat: no-repeat;
   padding: 1rem 0;
 }
