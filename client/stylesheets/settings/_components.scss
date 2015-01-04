@@ -6,19 +6,18 @@
     margin: 0 0 1rem 0;
   }
 
-  input:not(:checked),
-  input:checked {
+  input {
     @include appearance(none);
-    width: 4.25rem;
-    height: 2rem;
+    width: 5.15rem;
+    height: 2.5rem;
     border: 2px solid $elite-red;
     background: linear-gradient($elite-red,$elite-red) no-repeat center left, transparent;
-    background-size: 2rem 2rem, auto;
-    transition: .4s background-position;
+    background-size: 2.5rem 2.5rem, auto;
   }
 
   input:active,
   input:focus {
+    box-shadow: 0 0 1rem rgba(white, .5);
     outline: none;
   }
   

@@ -98,7 +98,9 @@ p {
 
 button, .button {
   background: transparent;
-  border-width: 2px;
+  border {
+    color: white;
+  }
 
   .secondary {
     background: transparent;

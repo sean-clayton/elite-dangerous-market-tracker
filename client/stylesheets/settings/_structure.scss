@@ -1,7 +1,6 @@
 $border-box-sizing: true !default;
-
+$border-width: 2px;
 $hidden-overflow: false;
-$visual-grid: true !default;
 
 html {
   @if ($hidden-overflow) {
@@ -14,6 +13,19 @@ html {
 html, body {
   min-height: 100vh;
   width: 100%;
+}
+
+thead {
+  border: {
+    size: $border-width;
+  }
+}
+
+button, .button {
+  border: {
+    width: $border-width;
+    style: solid;
+  }
 }
 
 table {
