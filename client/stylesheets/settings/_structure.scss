@@ -1,6 +1,7 @@
 $border-box-sizing: true !default;
 $border-width: 2px;
 $hidden-overflow: false;
+$default-border-radius: 0;
 
 html {
   @if ($hidden-overflow) {
@@ -41,4 +42,8 @@ hr{
   height: 1px;
   width: 50%;
   margin: 2rem auto;
+}
+
+input, button, textarea, select {
+  border-radius: $default-border-radius;
 }
