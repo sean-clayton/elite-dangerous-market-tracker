@@ -1,4 +1,5 @@
 Meteor.subscribe "System"
+Meteor.subscribe "Stations"
 
 Template.market.events
 
