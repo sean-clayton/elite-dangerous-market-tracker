@@ -1,5 +1,11 @@
-Meteor.subscribe "System"
-Meteor.subscribe "Stations"
+Meteor.subscribe "system"
+Meteor.subscribe "stations"
+
+Template.market.helpers
+  systems: ->
+    Systems.find()
+  stations: ->
+    Stations.find()
 
 Template.market.events
 

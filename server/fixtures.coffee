@@ -1,9 +1,3 @@
-Meteor.publish "systems", ->
-  Systems.find()
-
-Meteor.publish "stations", ->
-  Systems.find()
-
 console.log "Systems count: #{Systems.find().count()}"
 console.log "Stations count: #{Stations.find().count()}"
 

@@ -1,5 +1,6 @@
 Router.configure
   layoutTemplate: "defaultLayout"
+  notFoundTemplate: "404"
 
 Router.route "/",
   name: "homepage"
