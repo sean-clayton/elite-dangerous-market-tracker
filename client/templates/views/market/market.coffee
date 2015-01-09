@@ -1,4 +1,4 @@
-Meteor.subscribe 'Systems'
+Meteor.subscribe "System"
 
 Template.market.events
 
@@ -12,7 +12,7 @@ Template.market.events
 
     systemName = systemNameInput.val()
     stationName = stationNameInput.val()
-    hasBlackMarket = hasBlackMarketInput.is(':checked')
+    hasBlackMarket = hasBlackMarketInput.is(":checked")
 
     system =
       name: systemName
@@ -21,7 +21,7 @@ Template.market.events
     station =
       name: stationName
       system: systemName
-      type: ''
+      type: ""
       date: new Date()
 
     system._id = Systems.insert system
