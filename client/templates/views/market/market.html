@@ -16,6 +16,19 @@
 
         <button type="submit">Enter</button>
       </form>
+      {{> stationList}}
     </div>
   </section>
+</template>
+
+<template name="stationList">
+  <ul>
+    {{#each stations}}
+      {{> station}}
+    {{/each}}
+  </ul>
+</template>
+
+<template name="station">
+  <li>{{name}}</li>
 </template>

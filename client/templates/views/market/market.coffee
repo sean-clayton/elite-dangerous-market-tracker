@@ -35,3 +35,7 @@ Template.market.events
     station._id = Stations.insert station
 
     console.log "Inserted #{JSON.stringify system,null,2}"
+
+Template.stationList.helpers
+  stations: ->
+    Stations.find()

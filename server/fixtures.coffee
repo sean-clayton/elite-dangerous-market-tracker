@@ -59,7 +59,6 @@ if Systems.find().count() is 0
 
   Systems.insert
     name: "LHS 3447"
-    stations: Stations.insert system: "LHS 3447"
     date: new Date()
 
   console.log "Created #{Systems.find().count()} system(s)."
