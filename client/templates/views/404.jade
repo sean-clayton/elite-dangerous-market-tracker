@@ -1,0 +1,13 @@
+//<template name="404">
+//<section class="404">
+//<div class="container">
+//<h1>404 Not Found</h1>
+//</div>
+//</section>
+//</template>
+
+template(name="404")
+  section(class="404")
+    //- using (class="404") because you get unknown token with numbers after the . for classes for some reason. sticking to this in this outlier case
+    .container
+      h1 404 Not Found
