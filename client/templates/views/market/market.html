@@ -30,5 +30,7 @@
 </template>
 
 <template name="station">
-  <li>{{name}}</li>
+  {{#if name}}
+    <li>{{name}} {{#if system}}in {{system}}{{/if}} {{#if hasBlackmarket}}has{{else}}does not have{{/if}} a blackmarket.</li>
+  {{/if}}
 </template>
