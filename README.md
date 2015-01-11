@@ -47,6 +47,19 @@ global min/max.
   - Customized views
   - Personal graphs with real-time information
 
+### Supported Browsers
+
+I intend to only support the latest 2 versions of evergreen browsers, which are:
+
+- Google Chrome
+- Safari
+- Firefox
+- Internet Explorer
+
+Evergreen browsers are web browsers that update themselves on startup, without user input, thus keeping it fresh (evergreen). The latest 2 versions of these browsers are what I'm targeting—for example, at the time of this writing (2014-01-11), Google Chrome's latest 2 versions are v39 and v38 and Firefox is v34 and v33.
+
+This application also is 100% dependent on JavaScript. Literally nothing will work if you have it disabled, so please enable it :) You may not like it, but when people say something along the lines of "People who can't support people who block JavaScript are just bad developers" is like saying a wideout in American football is a bad reciever if they use gloves to catch the ball: It makes it easier for them to do their job better and more efficiently, at the cost of the extra <1lb on their body. A very great trade-off, in my opinion, and I don't ever intend on supporting JavaScript-disabled browsers.
+
 ## Development Info
 
 ### Prerequisites
