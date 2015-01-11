@@ -96,8 +96,6 @@ Only caveat is it relies on scss, but I see that as a plus.
 | Fuzzy search framework
 - [infinitedg:gsap](https://atmospherejs.com/infinitedg/gsap)
 | Wrapper for the GreenSock animation library. It's pretty freaking cool.
-- [mquandalle:jade](https://atmospherejs.com/mquandalle/jade)
-| Spacebars, but in Jade. It gud.
 
 ## Contributing
 
