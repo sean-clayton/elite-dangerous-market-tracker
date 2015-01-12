@@ -1,4 +1,3 @@
-console.log "Systems count: #{Systems.find().count()}"
 console.log "Stations count: #{Stations.find().count()}"
 
 if Stations.find().count() is 0
@@ -12,53 +11,53 @@ if Stations.find().count() is 0
     system: "LHS 3447"
     type: "outpost"
     hasBlackmarket: false
+    bannedItems: []
 
   Stations.insert
     name: "Worlidge Terminal"
     system: "LHS 3447"
     type: "station"
     hasBlackmarket: true
+    bannedItems: []
 
   Stations.insert
     name: "Yaping Enterprise"
     system: "LHS 3447"
     type: "outpost"
     hasBlackmarket: false
+    bannedItems: []
+    commodities: [
+      {
+        name: ""
+      }
+    ]
 
   Stations.insert
     name: "Trevithick Dock"
     system: "LHS 3447"
     type: "outpost"
     hasBlackmarket: true
+    bannedItems: []
 
   Stations.insert
     name: "Dalton Gateway"
     system: "LHS 3447"
     type: "station"
     hasBlackmarket: true
+    bannedItems: []
 
   Stations.insert
     name: "Oleskiw Station"
     system: "LHS 3447"
     type: "outpost"
     hasBlackmarket: false
+    bannedItems: []
 
   Stations.insert
     name: "Lawson Orbital"
     system: "LHS 3447"
     type: "outpost"
     hasBlackmarket: true
+    bannedItems: []
     
   console.log "Created #{Stations.find().count()} station(s)."
-
-if Systems.find().count() is 0
-
-  console.log "Creating systems"
-
-  # Creating initial system
-
-  Systems.insert
-    name: "LHS 3447"
-    date: new Date()
-
-  console.log "Created #{Systems.find().count()} system(s)."

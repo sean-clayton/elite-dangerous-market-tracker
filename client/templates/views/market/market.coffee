@@ -1,9 +1,6 @@
-Meteor.subscribe "system"
 Meteor.subscribe "stations"
 
 Template.market.helpers
-  systems: ->
-    Systems.find()
   stations: ->
     Stations.find()
 
@@ -21,20 +18,15 @@ Template.market.events
     stationName = stationNameInput.val()
     hasBlackMarket = hasBlackMarketInput.is(":checked")
 
-    system =
-      name: systemName
-      date: new Date()
-
     station =
       name: stationName
       system: systemName
       type: ""
       date: new Date()
 
-    system._id = Systems.insert system
     station._id = Stations.insert station
 
-    console.log "Inserted #{JSON.stringify system,null,2}"
+    console.log "Inserted #{JSON.stringify station,null,2}"
 
 Template.stationList.helpers
   stations: ->
